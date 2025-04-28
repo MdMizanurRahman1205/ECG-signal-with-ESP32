@@ -15,7 +15,7 @@ void loop() {
   Serial.print(loPlus);
   Serial.print(" LO-: ");
   Serial.println(loMinus);
-0lplp
+
   if (loPlus == 1 || loMinus == 1) {
     Serial.println('!');  // Indicate leads off
   } else {
